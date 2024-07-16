@@ -1,2 +1,1 @@
-# js
-code repo for javascript
+ #Landing page
