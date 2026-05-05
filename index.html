@@ -1,86 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="Karan Kumar - Full Stack Developer. Web Development, App Development, and UI/UX Design services." />
+    <meta name="keywords" content="developer, full-stack, web development, app development, ui ux design" />
+    <meta name="author" content="Karan Kumar" />
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Karan Kumar - Full Stack Developer" />
+    <meta property="og:description" content="Professional Full Stack Developer offering Web Development, App Development, and UI/UX Design services." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://Karankumarweb.github.io/Landing-page/" />
+    
+    <!-- Twitter Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Karan Kumar - Full Stack Developer" />
+    <meta name="twitter:description" content="Professional Full Stack Developer" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%23000'>K</text></svg>" />
+    
+    <title>Karan Kumar - Full Stack Developer | Web & App Development</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="hero_section">
+    <!-- Hero Section -->
+    <section class="hero_section" role="banner">
       <div class="text_container">
         <h2><span class="lg_text">Hi,</span> I am Karan Kumar</h2>
         <h1 class="lg_text">FULL STACK DEVELOPER</h1>
+        <p class="hero_subtitle">Building amazing digital experiences</p>
       </div>
     </section>
-    <section class="black_box">
+
+    <!-- Services Header Section -->
+    <section class="black_box" role="region" aria-label="Services">
       <h2>WORK, I CAN DO FOR <span>YOU</span></h2>
     </section>
-    <section class="work">
+
+    <!-- Services Section -->
+    <section class="work" role="region" aria-label="Services Offered">
+      <!-- Web Development Card -->
       <div class="grid_item">
-        <div class="card">
+        <article class="card">
           <div class="image_container">
-            <img src="images/web.png" alt="web developer" />
+            <img src="images/web.png" alt="Web development services icon" loading="lazy" />
           </div>
           <div class="card_container">
             <h3>Web Development</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-              dicta veniam ipsam! Illo, ratione odit.
+              Create stunning, responsive websites that engage users and drive business growth.
+              Using modern technologies and best practices.
             </p>
           </div>
-        </div>
+        </article>
       </div>
+
+      <!-- App Development Card -->
       <div class="grid_item">
-        <div class="card">
+        <article class="card">
           <div class="image_container">
-            <img src="images/mobile.png" alt="app developer" />
+            <img src="images/mobile.png" alt="Mobile app development services icon" loading="lazy" />
           </div>
           <div class="card_container">
             <h3>App Development</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-              numquam beatae porro saepe adipisci est.
+              Build powerful mobile applications for iOS and Android that users love.
+              Native and cross-platform solutions available.
             </p>
           </div>
-        </div>
+        </article>
       </div>
+
+      <!-- UI/UX Design Card -->
       <div class="grid_item">
-        <div class="card">
+        <article class="card">
           <div class="image_container">
-            <img src="images/uiux.png" alt="ui ux developer" />
+            <img src="images/uiux.png" alt="UI UX design services icon" loading="lazy" />
           </div>
           <div class="card_container">
             <h3>UI UX Design</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos
-              amet et aspernatur. Dolores, rerum!
+              Design beautiful, user-friendly interfaces that convert. User-centered design
+              approach with accessibility in mind.
             </p>
           </div>
-        </div>
+        </article>
       </div>
     </section>
-    <section class="bottom_section">
+
+    <!-- Bottom Section -->
+    <section class="bottom_section" role="region" aria-label="Contact and About">
+      <!-- Contact Section -->
       <div class="contact">
         <h2>Contact Me</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quo
-          quibusdam doloribus quaerat. Odio, omnis.
+          Ready to bring your project to life? Let's discuss how I can help you achieve
+          your goals with cutting-edge web solutions.
         </p>
-        <p>dosomecoding@example.test</p>
+        <p><strong>Email:</strong> dosomecoding@example.com</p>
+        <p><strong>Phone:</strong> +1 (XXX) XXX-XXXX</p>
       </div>
+
+      <!-- About Section -->
       <div class="about">
         <h2>About Me</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quo
-          quibusdam doloribus quaerat. Odio, omnis.
+          I'm a passionate Full Stack Developer with expertise in creating elegant solutions
+          to complex problems. With several years of experience, I've helped numerous businesses
+          achieve their digital transformation goals.
         </p>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quo
-          quibusdam doloribus quaerat. Odio, omnis.
+          When I'm not coding, I enjoy contributing to open-source projects, learning new
+          technologies, and sharing knowledge with the developer community.
         </p>
       </div>
     </section>
-    <footer>Project By do some coding</footer>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+      © 2024 | Project By Karan Kumar | All Rights Reserved
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
   </body>
 </html>
